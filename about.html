@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про нас - CoffeeBliss</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-coffee"></i>
+                <span>CoffeeBliss</span>
+            </a>
+            <div class="nav-center">
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Головна</a></li>
+                    <li><a href="menu.html" class="nav-link">Меню</a></li>
+                    <li><a href="about.html" class="nav-link active">Про нас</a></li>
+                    <li><a href="contacts.html" class="nav-link">Контакти</a></li>
+                </ul>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Відкрити меню">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="theme-toggle" id="themeToggle" title="Переключити тему">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header class="page-hero about-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Про CoffeeBliss</h1>
+            <p class="hero-subtitle">Наша історія, цінності і мрії</p>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <div class="container">
+            <h2 class="section-title">Наша історія</h2>
+
+            <div class="story-content">
+                <p>CoffeeBliss народилася в 2020 році з простої мрії — зробити світ трохи кращим, по одній чашці кави.
+                    Засновниця проєкту Ольга довгі роки подорожувала світом, дегустуючи каву в найкращих кав'ярнях від
+                    Риму до Нью-Йорка.</p>
+                <p>Повернувшись до Києва, вона зрозуміла, що справжню якісну каву буває важко знайти. Тоді вона вирішила
+                    створити місце, де якість, простота і затишок зустрічаються в одній чашці.</p>
+                <p>За перші роки роботи CoffeeBliss стала улюбленою кав'ярнею для тисяч киян. Ми отримали чимало
+                    нагород, але найголовніша — посмішка на обличчі задоволеного гостя.</p>
+            </div>
+
+            <!-- Цінності -->
+            <h3 class="section-title-small">Наші цінності</h3>
+            <div class="about-values">
+                <div class="value">
+                    <div class="value-icon">✓</div>
+                    <h4>Якість</h4>
+                    <p>Ми не йдемо на компроміс. Кожне зерно вибирається вручну, обсмажується за особливим рецептом і
+                        готується для вас з любов'ю.</p>
+                </div>
+                <div class="value">
+                    <div class="value-icon">✓</div>
+                    <h4>Простота</h4>
+                    <p>Без зайвих прикрас і складних назв. Просто чудова кава, смачна закуска і приємна атмосфера.</p>
+                </div>
+                <div class="value">
+                    <div class="value-icon">✓</div>
+                    <h4>Затишок</h4>
+                    <p>Наш інтер'єр розроблений так, щоб ви почувалися як вдома. Простір, де хочеться залишатися,
+                        розмовляти та творити.</p>
+                </div>
+                <div class="value">
+                    <div class="value-icon">✓</div>
+                    <h4>Відповідальність</h4>
+                    <p>Ми працюємо справедливо з нашими партнерами і піклуємось про планету. Вся наша упаковка
+                        екологічна.</p>
+                </div>
+            </div>
+
+            <!-- Команда -->
+            <h3 class="section-title-small">Команда CoffeeBliss</h3>
+            <div class="team-grid">
+                <div class="team-member">
+                    <span class="member-avatar">👩‍💼</span>
+                    <h4>Ольга Павленко</h4>
+                    <p>Засновниця і керівниця</p>
+                    <p class="member-bio">15+ років досвіду в кав'ярному бізнесі. Експерт у відборі кави та організації
+                        простору.</p>
+                </div>
+                <div class="team-member">
+                    <span class="member-avatar">👨‍🍳</span>
+                    <h4>Іван Коваленко</h4>
+                    <p>Головний бариста</p>
+                    <p class="member-bio">Чемпіон України з приготування кави. Відчуває аромат з першого ковтка.</p>
+                </div>
+                <div class="team-member">
+                    <span class="member-avatar">👨‍🍳</span>
+                    <h4>Максим Ткач</h4>
+                    <p>Шеф-кондитер</p>
+                    <p class="member-bio">Творець всіх наших смачних закусок. Експерт у міжнародних рецептах.</p>
+                </div>
+                <div class="team-member">
+                    <span class="member-avatar">👩‍🎨</span>
+                    <h4>Наталія Возна</h4>
+                    <p>Дизайнер простору</p>
+                    <p class="member-bio">Створила унікальну затишну атмосферу CoffeeBliss.</p>
+                </div>
+            </div>
+
+            <!-- Досягнення -->
+            <h3 class="section-title-small">Наші досягнення</h3>
+            <div class="achievements-grid">
+                <div class="achievement">
+                    <div class="achievement-year">2020</div>
+                    <p>Заснована CoffeeBliss. Перший місяць роботи перевищив усі очікування.</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-year">2021</div>
+                    <p>Отримали нагороду "Найкраща кав'ярня року" від журналу Київ Сіті.</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-year">2022</div>
+                    <p>Досягли 1000+ постійних клієнтів. Відкрилась друга локація.</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-year">2023</div>
+                    <p>Запустили програму доставки. Починаємо експорт кави до інших міст.</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-year">2024</div>
+                    <p>Розширюємо команду. Стали найпопулярнішою кав'ярнею в центрі Києва.</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-year">2025</div>
+                    <p>Запускаємо нові ініціативи у сфері сталого розвитку та Zero Waste.</p>
+                </div>
+            </div>
+
+            <div class="about-cta">
+                <h3>Приєднайтесь до нашої спільноти</h3>
+                <p>CoffeeBliss — це більше ніж бізнес. Це спільнота людей, які цінують якість і прості радості життя.
+                </p>
+                <a href="contacts.html" class="cta-button">Відвідайте нас</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CoffeeBliss</h4>
+                    <p>Місце де кава — це мистецтво</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навігація</h4>
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="menu.html">Меню</a></li>
+                        <li><a href="about.html">Про нас</a></li>
+                        <li><a href="contacts.html">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакти</h4>
+                    <p>вул. Квіткова, 42, Київ</p>
+                    <p>+38 (012) 345-67-89</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CoffeeBliss. Усі права захищені.</p>
+                <p class="footer-subtitle">Насолоджуйтесь з душею ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

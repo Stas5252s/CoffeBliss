@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeBliss - Преміум кава</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Навігація -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-coffee"></i>
+                <span>CoffeeBliss</span>
+            </a>
+            <div class="nav-center">
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link active">Головна</a></li>
+                    <li><a href="menu.html" class="nav-link">Меню</a></li>
+                    <li><a href="about.html" class="nav-link">Про нас</a></li>
+                    <li><a href="contacts.html" class="nav-link">Контакти</a></li>
+                </ul>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Відкрити меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <button class="theme-toggle" id="themeToggle" title="Переключити тему">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Головна секція -->
+    <header id="home" class="hero-fullscreen">
+        <div class="hero-content">
+            <h1 class="hero-title">CoffeeBliss</h1>
+            <p class="hero-subtitle">Ідеальна чашка кави для вас</p>
+            <p class="hero-tagline">Простота, якість, затишок</p>
+            <a href="#welcome" class="cta-button">Дивитись більше</a>
+        </div>
+        <!-- scroll indicator був у CSS але відсутній у HTML -->
+        <a href="#welcome" class="scroll-indicator" aria-label="Прокрутити вниз">
+            <span>↓</span>
+        </a>
+    </header>
+
+    <!-- Про нас секція -->
+    <section id="welcome" class="welcome-section">
+        <div class="container">
+            <h2 class="section-title">Ласкаво просимо до CoffeeBliss</h2>
+            <p class="section-lead">
+                Це не просто кав'ярня — це місце, де час завмирає, а кожна чашка кави розповідає свою історію.
+            </p>
+
+            <div class="welcome-grid">
+                <div class="welcome-card">
+                    <div class="card-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>100% Натуральні зерна</h3>
+                    <p>Ми обираємо тільки найкращі сорти кави з кращих плантацій світу. Кожне зерно проходить ретельну
+                        перевірку якості перед обсмажуванням.</p>
+                </div>
+                <div class="welcome-card">
+                    <div class="card-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Приготовлено з любов'ю</h3>
+                    <p>Наші бариста мають багаторічний досвід. Кожен напиток готується з увагою до деталей та з
+                        відданням своїй справі.</p>
+                </div>
+                <div class="welcome-card">
+                    <div class="card-icon"><i class="fas fa-home"></i></div>
+                    <h3>Затишна атмосфера</h3>
+                    <p>Дизайн нашої кав'ярні створює ідеальний баланс між затишком і стильністю. Ідеально для роботи,
+                        зустрічей або просто релаксації.</p>
+                </div>
+            </div>
+
+            <div class="welcome-content">
+                <h3>Чому вибирають CoffeeBliss?</h3>
+                <p>У світі, де все рухається швидко, ми запрошуємо вас зробити паузу. Паузу для смаку, для аромату, для
+                    спілкування. CoffeeBliss — це місце, де класична традиція обсмажування кави зустрічається з
+                    сучасними тенденціями в мистецтві приготування напоїв.</p>
+                <p>Наша місія проста: дарувати людям змогу насолоджуватися найкращою кавою у світі за справедливою
+                    ціною. Ми працюємо безпосередньо з фермерами, забезпечуючи справедливу оплату за їхню працю та
+                    сприяючи сталому розвитку.</p>
+                <p>Кожен візит до CoffeeBliss — це подорож смаком. Від класичного еспресо до авторських напоїв, ми
+                    пропонуємо щось для кожного.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Спеціальна пропозиція -->
+    <section class="special-section">
+        <div class="container">
+            <div class="special-content">
+                <div class="special-text">
+                    <h3>Спеціальна пропозиція для новачків</h3>
+                    <p>Вперше у нас? Першу чашку кави отримаєте зі знижкою 20%. Просто покажіть цей екран при
+                        замовленні.</p>
+                    <p class="promo-code">Код: <strong>FIRST20</strong></p>
+                </div>
+                <div class="special-image">
+                    <div class="coffee-cup large"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Переваги -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">Наші переваги</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-number">01</div>
+                    <h4>Швидке обслуговування</h4>
+                    <p>Замовлення готується за лічені хвилини. Не потрібно чекати довго — ваша кава чекає на вас.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">02</div>
+                    <h4>Екологічна упаковка</h4>
+                    <p>Усі наші упаковки розкладаються в природі. Ми дбаємо про планету разом з вами.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">03</div>
+                    <h4>Програма лояльності</h4>
+                    <p>Накопичуйте бали за кожну покупку і отримуйте винагороди та спеціальні пропозиції.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">04</div>
+                    <h4>Вільний WiFi</h4>
+                    <p>Швидкий інтернет для роботи та спілкування. Працюйте комфортно у нашій кав'ярні.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">05</div>
+                    <h4>Доставка по Києву</h4>
+                    <p>Замовте каву додому або на роботу. Швидка доставка по всьому Києву.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">06</div>
+                    <h4>Консультація бариста</h4>
+                    <p>Наші бариста допоможуть підібрати ідеальну каву саме для вас та розкажуть про її походження.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Статистика -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">1500+</div>
+                    <p>Задоволених клієнтів</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <p>Видів кави</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">12+</div>
+                    <p>Років досвіду</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">4.9★</div>
+                    <p>Середня оцінка</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Відгуки -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">Що кажуть про нас</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Найкраща кава в місті! Атмосфера просто чудова, персонал привітний.
+                        Приходимо сюди кожного вихідного."</p>
+                    <p class="review-author">— Марія К.</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Ідеальне місце для роботи! Тихо, комфортно, кава — бог. Вже три місяці
+                        приходжу сюди майже щодня."</p>
+                    <p class="review-author">— Сергій П.</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Рекомендую всім друзям! Якість кави, як у кращих кав'ярнях Європи. Дякую за
+                        такий затишок!"</p>
+                    <p class="review-author">— Олена В.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Готові спробувати найкращу каву?</h2>
+            <p>Приходьте до нас сьогодні і отримайте 20% знижку на першу чашку</p>
+            <a href="menu.html" class="cta-button cta-large">Переглянути меню</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CoffeeBliss</h4>
+                    <p>Місце де кава — це мистецтво</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навігація</h4>
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="menu.html">Меню</a></li>
+                        <li><a href="about.html">Про нас</a></li>
+                        <li><a href="contacts.html">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакти</h4>
+                    <p>вул. Квіткова, 42, Київ</p>
+                    <p>+38 (012) 345-67-89</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CoffeeBliss. Усі права захищені.</p>
+                <p class="footer-subtitle">Насолоджуйтесь з душею ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

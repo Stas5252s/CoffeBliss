@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню - CoffeeBliss</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-coffee"></i>
+                <span>CoffeeBliss</span>
+            </a>
+            <div class="nav-center">
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Головна</a></li>
+                    <li><a href="menu.html" class="nav-link active">Меню</a></li>
+                    <li><a href="about.html" class="nav-link">Про нас</a></li>
+                    <li><a href="contacts.html" class="nav-link">Контакти</a></li>
+                </ul>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Відкрити меню">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="theme-toggle" id="themeToggle" title="Переключити тему">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header class="page-hero menu-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Наше меню</h1>
+            <p class="hero-subtitle">Вибір вишуканих смаків</p>
+        </div>
+    </header>
+
+    <section class="menu-section">
+        <div class="container">
+
+            <!-- Гарячі напої -->
+            <div class="menu-category">
+                <h2 class="category-title">☕ Гарячі напої</h2>
+                <p class="category-description">Класичні рецепти, приготовлені за традиціями кращих кав'ярень світу.
+                    Кожен напиток — це гармонія смаку та аромату.</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="coffee-cup small"></div>
+                        </div>
+                        <h4 class="menu-name">Еспресо</h4>
+                        <p class="menu-description">Концентрована енергія в одній чашці. Міцний, насичений смак для
+                            справжніх любителів кави.</p>
+                        <div class="menu-footer">
+                            <span class="menu-price">120₴</span>
+                            <span class="menu-volume">30 мл</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="coffee-cup medium"></div>
+                        </div>
+                        <h4 class="menu-name">Капучино</h4>
+                        <p class="menu-description">М'яка гармонія гарячої кави і пінистого молока. Класичний вибір для
+                            всіх.</p>
+                        <div class="menu-footer">
+                            <span class="menu-price">160₴</span>
+                            <span class="menu-volume">300 мл</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="coffee-cup large"></div>
+                        </div>
+                        <h4 class="menu-name">Латте</h4>
+                        <p class="menu-description">М'якість і теплота в одній чашці. Ідеальний баланс кави і молока для
+                            ніжних смаків.</p>
+                        <div class="menu-footer">
+                            <span class="menu-price">180₴</span>
+                            <span class="menu-volume">350 мл</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="coffee-cup mocha"></div>
+                        </div>
+                        <h4 class="menu-name">Мокка</h4>
+                        <p class="menu-description">Кава зустрічається з шоколадом. Насичений шоколадний смак у
+                            гармонійній суміші з еспресо.</p>
+                        <div class="menu-footer">
+                            <span class="menu-price">200₴</span>
+                            <span class="menu-volume">320 мл</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="coffee-cup americano"></div>
+                        </div>
+                        <h4 class="menu-name">Американо</h4>
+                        <p class="menu-description">Класичне і просте. Міцна кава розведена гарячою водою для більшого
+                            об'єму.</p>
+                        <div class="menu-footer">
+                            <span class="menu-price">140₴</span>
+                            <span class="menu-volume">300 мл</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="coffee-cup medium"></div>
+                        </div>
+                        <h4 class="menu-name">Макіато</h4>
+                        <p class="menu-description">Еспресо з невеличкою хмаринкою молочної піни. Компактна та смачна
+                            порція.</p>
+                        <div class="menu-footer">
+                            <span class="menu-price">150₴</span>
+                            <span class="menu-volume">80 мл</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Холодні напої -->
+            <div class="menu-category">
+                <h2 class="category-title">🧊 Холодні напої</h2>
+                <p class="category-description">Освіжаючі коктейлі для спекотних днів. Кожен напиток готується зі свіжим
+                    льодом та найкращими інгредієнтами.</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="coffee-cup iced"></div>
+                        </div>
+                        <h4 class="menu-name">Льодяна кава</h4>
+                        <p class="menu-description">Освіжаючий коктейль для спеки. Еспресо охолоджене льодом з молоком.
+                        </p>
+                        <div class="menu-footer">
+                            <span class="menu-price">180₴</span>
+                            <span class="menu-volume">400 мл</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="coffee-cup iced"></div>
+                        </div>
+                        <h4 class="menu-name">Фраппе</h4>
+                        <p class="menu-description">Гарячу каву збиваємо зі льодом і молоком. Повітряна та легка!</p>
+                        <div class="menu-footer">
+                            <span class="menu-price">200₴</span>
+                            <span class="menu-volume">400 мл</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="coffee-cup iced"></div>
+                        </div>
+                        <h4 class="menu-name">Афогато</h4>
+                        <p class="menu-description">Класика по-італійськи. Еспресо на морозиві — гарячий і холодний
+                            контраст.</p>
+                        <div class="menu-footer">
+                            <span class="menu-price">160₴</span>
+                            <span class="menu-volume">200 мл</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Закуски -->
+            <div class="menu-category">
+                <h2 class="category-title">🍰 Закуски</h2>
+                <p class="category-description">Смачне до кави. Все готується щодня за класичними рецептами з
+                    натуральних інгредієнтів.</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="pastry croissant"></div>
+                        </div>
+                        <h4 class="menu-name">Круасан</h4>
+                        <p class="menu-description">Хрусткий французький смак. Класичний круасан з масляним листковим
+                            тістом.</p>
+                        <div class="menu-footer"><span class="menu-price">85₴</span></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="pastry brownie"></div>
+                        </div>
+                        <h4 class="menu-name">Брауні</h4>
+                        <p class="menu-description">Густий шоколадний смак. Темний, тягучий брауні з грецькими горіхами.
+                        </p>
+                        <div class="menu-footer"><span class="menu-price">160₴</span></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="pastry tart"></div>
+                        </div>
+                        <h4 class="menu-name">Ягідний тарт</h4>
+                        <p class="menu-description">Зі свіжими ягодами й кремом. Чудовий баланс крем-сиру та ягід.</p>
+                        <div class="menu-footer"><span class="menu-price">200₴</span></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="pastry cheesecake"></div>
+                        </div>
+                        <h4 class="menu-name">Чізкейк</h4>
+                        <p class="menu-description">Класичний американський десерт. Ніжний крем-сир на печивній основі.
+                        </p>
+                        <div class="menu-footer"><span class="menu-price">220₴</span></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="pastry muffin"></div>
+                        </div>
+                        <h4 class="menu-name">Маффін</h4>
+                        <p class="menu-description">Пишне тісто з ягодами. Легка та повітряна випічка з чорницею.</p>
+                        <div class="menu-footer"><span class="menu-price">110₴</span></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <div class="pastry panna"></div>
+                        </div>
+                        <h4 class="menu-name">Панна-котта</h4>
+                        <p class="menu-description">Італійський ніжний десерт. Вершкова маса з ваніллю та ягідним
+                            соусом.</p>
+                        <div class="menu-footer"><span class="menu-price">180₴</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Інфо -->
+            <div class="menu-info">
+                <h3>Корисна інформація</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <h4><i class="fas fa-leaf"></i> Органічна кава</h4>
+                        <p>Вся наша кава сертифікована як органічна і відповідає найвищим стандартам якості.</p>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fas fa-heart"></i> Для алергіків</h4>
+                        <p>Замінимо звичайне молоко на альтернативні напої: рисове, мигдальне або кокосове.</p>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fas fa-utensils"></i> Вегетаріанське меню</h4>
+                        <p>Більшість наших закусок підходять для вегетаріанців. Запитуйте бариста.</p>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fas fa-box"></i> Доставка</h4>
+                        <p>Замовляйте каву додому або на роботу. Швидка доставка по Києву.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CoffeeBliss</h4>
+                    <p>Місце де кава — це мистецтво</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навігація</h4>
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="menu.html">Меню</a></li>
+                        <li><a href="about.html">Про нас</a></li>
+                        <li><a href="contacts.html">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакти</h4>
+                    <p>вул. Квіткова, 42, Київ</p>
+                    <p>+38 (012) 345-67-89</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CoffeeBliss. Усі права захищені.</p>
+                <p class="footer-subtitle">Насолоджуйтесь з душею ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
