@@ -107,8 +107,8 @@ coffee-shop/
 ```html
 <!-- У секції контактів -->
 <p>вул. Квіткова, 42</p>
-<p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
-<p><a href="mailto:hello@brewbliss.ru">hello@brewbliss.ru</a></p>
+<p><a href="tel:+79991234567">+38 (012) 123-45-67</a></p>
+<p><a href="mailto:hello@brewbliss.ua">hello@brewbliss.ua</a></p>
 ```
 
 ## 📄 Ліцензія
@@ -119,8 +119,9 @@ coffee-shop/
 
 Розроблено з ❤️ для BrewBliss  
 Автор: Stas5252s  
-Email: hello@brewbliss.ru
+Email: hello@brewbliss.ua
 
 ---
 
 **Насолоджуйтесь ідеальною чашкою кави! ☕**
+
