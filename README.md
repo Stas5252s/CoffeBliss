@@ -107,7 +107,7 @@ coffee-shop/
 ```html
 <!-- У секції контактів -->
 <p>вул. Квіткова, 42</p>
-<p><a href="tel:+79991234567">+38 (012) 123-45-67</a></p>
+<p><a href="tel:+380121234567">+38 (012) 123-45-67</a></p>
 <p><a href="mailto:hello@brewbliss.ua">hello@brewbliss.ua</a></p>
 ```
 
@@ -124,4 +124,5 @@ Email: hello@brewbliss.ua
 ---
 
 **Насолоджуйтесь ідеальною чашкою кави! ☕**
+
 
