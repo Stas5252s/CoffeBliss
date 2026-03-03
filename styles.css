@@ -211,7 +211,7 @@ html[data-theme="dark"] .theme-toggle {
     justify-content: center;
     padding: 3rem 2rem;
     text-align: center;
-    background-image: url('/Coffee/imgs/kofejnye_zerna_kofe_obzharennyj_123693_3840x2160.jpg');
+    background-image: url('kofejnye_zerna_kofe_obzharennyj_123693_3840x2160.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -1615,4 +1615,5 @@ html[data-theme="dark"] .footer {
     .contact-form {
         padding: 1.8rem;
     }
+
 }
